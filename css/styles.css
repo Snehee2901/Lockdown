@@ -16,6 +16,16 @@
 	padding: 20px 0px 20px 0px;
 }
 
+footer{
+	margin-top: 80px;
+	background-color:#D1C4E9;
+	color: black;
+	clear: both;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+}
+
 .jumbotron{
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
@@ -45,11 +55,12 @@ body{
 }
 
 .carousel{
-	background:#512DA8;
+	background:#AFADD1;
 }
 
 .carousel-item{
 	height: 300px;
+	width: 500px;
 }
 
 .carousel-item img{
@@ -57,6 +68,7 @@ body{
 	top: 0;
 	left: 0;
 	min-height: 300px;
+	min-width: 500px;
 }
 
 #carousebtn{
@@ -83,4 +95,64 @@ body{
 
 .modal-header{
 	background-color: #512DA8;
+}
+
+.footer .footer-top .social-links {
+  margin-top: 30px;
+}
+
+footer .footer-top a {
+  font-size: 18px;
+  display: inline-block;
+  background: #eaecef;
+  color: #5f687b;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+   padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.footer .footer-bottom {
+  border-top: 1px solid #d9dce2;
+  z-index: 2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  z-index: 10;
+  color: white;
+  right: 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-text {
+    left:350px!important;
+    display:inline-block;
+}
+
+.carousel-text {
+    top:5px;
+    left:220px;
+    width:390px;
+    position:relative;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 5px;
+}
+
+.card-header{
+	text-align: center;
 }
