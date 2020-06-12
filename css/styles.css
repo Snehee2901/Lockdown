@@ -17,11 +17,9 @@
 }
 
 footer{
-	margin-top: 80px;
-	background-color:#D1C4E9;
+	background-color:#BCD9D9!important;
 	color: black;
 	clear: both;
-	padding: 15px;
 	text-align: center;
 	position: relative;
 }
@@ -42,6 +40,7 @@ footer{
 body{
 	padding-top: 50px 0px 0px 0px;
 	z-index: 0;
+	background-color: #D9EBE9;
 }
 
 .navbar-dark{
@@ -97,9 +96,9 @@ body{
 	background-color: #512DA8;
 }
 
-.footer .footer-top .social-links {
+/*.footer .footer-top .social-links {
   margin-top: 30px;
-}
+}*/
 
 footer .footer-top a {
   font-size: 18px;
@@ -107,14 +106,12 @@ footer .footer-top a {
   background: #eaecef;
   color: #5f687b;
   line-height: 1;
-  padding: 8px 0;
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-   padding-bottom: 0;
   margin-bottom: 0;
 }
 
@@ -122,8 +119,6 @@ footer .footer-top a {
   border-top: 1px solid #d9dce2;
   z-index: 2;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .carousel-content {
@@ -155,4 +150,63 @@ footer .footer-top a {
 
 .card-header{
 	text-align: center;
+	background: #B7D5D5;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.copyright{
+	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright{
+        float: none;
+    }
+}
+
+.credit{
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .credit{
+        float: none;
+    }
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+#heading1{
+	background-color: #CB96CA;
+}
+h5{
+	color: black;
+}
+
+div.fl-accordion-item.fl-accordion-item-active .fl-accordion-button {
+  background-color: #000000;
 }
