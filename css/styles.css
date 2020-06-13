@@ -8,6 +8,7 @@
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px ridge;
 	min-height: 400px;
+	color: black;
 }
 
 .footer{
@@ -29,6 +30,7 @@ footer{
 	margin: 0px auto;
 	background:#9575CD;
 	color: floralwhite;
+	width: 100%;
 }
 
 .address{
@@ -177,6 +179,12 @@ footer .footer-top a {
     .credit{
         float: none;
     }
+    .jumbotron{
+    	max-width: 768px; 
+    }
+    .jcard{
+    	max-width: 768px;
+    }
 }
 
 
@@ -209,4 +217,34 @@ h5{
 
 div.fl-accordion-item.fl-accordion-item-active .fl-accordion-button {
   background-color: #000000;
+}
+
+@media (max-width: 700px) {
+.media-body {
+width: 100%; /* adds full width to mydiv which is best for mobiles */
+display: block; /* displays mydiv as a block */
+}
+.media-body{
+	width: 10%;
+	display:none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
+}
+}
+
+@media (min-width: 700px) {
+.media-body1 {
+width: 100%; /* adds full width to mydiv which is best for mobiles */
+display: block; /* displays mydiv as a block */
+}
+.media-body1{
+	display:none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
+}
+}
+
+@media (max-width: 700px) {
+.jcard{
+	width: 100%; /* adds full width to mydiv which is best for mobiles */
+}
+.jumbotron{
+	width: 100%;
+}
 }
